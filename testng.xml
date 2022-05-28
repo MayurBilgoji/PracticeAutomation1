@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Asus/IdeaProjects/PracticeAutomation1">
+        <classes>
+            <class name="tests.Test1">
+                <methods>
+                    <include name="tc1"/>
+                    <include name="tc2"/>
+                    <include name="tc3"/>
+                </methods>
+            </class>
+            <class name="tests.Test2">
+                <methods>
+                    <include name="tc4"/>
+                    <include name="tc5"/>
+                    <include name="tc6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
